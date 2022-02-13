@@ -1,0 +1,170 @@
+html{
+  font-size: 62.5%; /* utilizada para usar rem - medita para facilitar no media query  */
+}
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem; /* 16px - medita resetada no html */
+}
+
+.cabecalho{
+  padding: 15px 15px;
+  position: relative;
+}
+.cabecalho .logo, .img-logo-header{
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+.img-logo{
+  width: 70px;
+  height: 70px;
+}
+/* escondendo o h1  */
+h1{
+  font-size: 0;
+}
+nav{
+  display: inline-block;
+  position: absolute; /* para poder trabalhar com posiçao */
+  right: 30px;
+  margin-top: 30px;
+}
+.cabecalho ul li{
+  display: inline-block;
+  padding: 5px
+}
+.cabecalho ul li a:hover{
+  font-weight: bold;
+}
+.painel{
+  background: url(../images/painel.jpg) center center no-repeat;
+  height: 600px;
+}
+.painel h2{
+  color: white;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+  position: relative; /* para centralizar */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.secao-com-texto.quem-somos, .onde-estamos {
+  background-color: rgb(228, 226, 226);
+}
+iframe{
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+.secao-com-texto{
+  padding: 153px;
+  text-align: center;
+  clear: both;
+}
+.secao-com-texto img{
+  width: 170px;
+  height: 170px;
+}
+.secao-com-texto h2{
+  font-size: 45px;
+  font-weight:600;
+  margin-bottom: 37px;
+
+}
+.secao-com-texto p{
+  font-size: 18px;
+  width: 702px;
+  margin: 0 auto;
+}
+.secao-com-texto.onde-estamos p{
+  font-size: 28px;
+  /* width: 480px; */
+}
+
+/* ------------------------ Seções ------------------------  */
+.ladrilho div{
+  float: left;
+}
+.ladrilho .grande{
+  background: url(../images/ladrilho-grande.jpg) center center no-repeat;
+  height: 600px;
+  width: 50%;
+}
+.ladrilho .pequeno{
+  background: url(../images/ladrilho-pequeno.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+.ladrilho .pequeno-grao{
+  background: url(../images/ladrilho-grao.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+.ladrilho .medio{
+  background: url(../images/ladrilho-medio.jpg);
+  height: 300px;
+  width: 50%;
+
+}
+.contato{
+  background: url(../images/fundo-contato.jpg) center center no-repeat;
+  color: white;
+  height: 500px;
+  position: relative; /* pra div do texto */ 
+}
+.contato h2{
+  font-size: 45px;
+  font-weight: 600px;
+  margin-bottom: 30px;
+}
+address{
+  font-size: 25px;
+  font-weight: 600px;
+}
+.texto{
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+/* ------------------------ Rodapé ------------------------  */
+
+.rodape{
+  background: url(../images/fundo-rodape.jpg) center center no-repeat;
+  padding: 35px 30px;
+  background-size: cover; /* pra cobrir todo o rodapá */
+}
+.rodape ul{
+  float: right;
+  margin-top: 30px;
+}
+.rodape ul li{
+  display: inline-block;
+  padding: 15px;
+}
+.rodape ul li a{
+  color: white;
+}
+.rodape ul li a:hover{
+  font-weight: bold;
+}
+.rodape .redes-sociais .facebook, .instagram{ 
+ 
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.rodape .redes-sociais{
+  float: right;
+  clear: both;
+}
+.rodape .conteudo-de-baixo{
+  margin-top: 40px;
+}
+
+.copyright{
+  color: white;
+}
